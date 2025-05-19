@@ -40,6 +40,5 @@ int main() {
     printf("Número de pontos turísticos:%d \n", turismo);
 
 
-
     return 0;
 }
