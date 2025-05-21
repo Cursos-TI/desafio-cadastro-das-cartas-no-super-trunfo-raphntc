@@ -26,13 +26,13 @@ int main() {
 
     //Carta 1
 
-    printf("Carta 1\n")
+    printf("Carta 1\n");
     printf("Digite o código da cidade: ");
-    scanf("%i", &ddd);
+    scanf("%d", &ddd);
     printf("Digite o nome da cidade: ");
     scanf("%s", &nome);
     printf("Digite a população da cidade: ");
-    scanf("%i", &populacao);
+    scanf("%d", &populacao);
     printf("Digite a área da cidade: ");
     scanf("%f", &area);
     printf("Digite o PIB da cidade: ");
@@ -42,13 +42,13 @@ int main() {
 
     //Carta 2
 
-    printf("Carta 2\n")
+    printf("Carta 2\n");
     printf("Digite o código da cidade: ");
-    scanf("%i", &ddd2);
+    scanf("%d", &ddd2);
     printf("Digite o nome da cidade: ");
     scanf("%s", &nome2);
     printf("Digite a população da cidade: ");
-    scanf("%i", &populacao2);
+    scanf("%d", &populacao2);
     printf("Digite a área da cidade: ");
     scanf("%f", &area2);
     printf("Digite o PIB da cidade: ");
@@ -63,11 +63,11 @@ int main() {
     // Carta 1
 
     printf("--- Jogo SUPER TRUNFO --- \n");
-    printf("--- Carta 1 ---\n")
+    printf("--- Carta 1 ---\n");
     printf("Dados da cidade\n");
-    printf("Código da cidade:%i \n", ddd);
+    printf("Código da cidade:%d \n", ddd);
     printf("Nome:%s \n", nome);
-    printf("População:%i \n", populacao);
+    printf("População:%d \n", populacao);
     printf("Área:%f \n", area);
     printf("PIB:%f \n", pib);
     printf("Número de pontos turísticos:%d \n", turismo);
@@ -75,11 +75,11 @@ int main() {
     // Carta 2
 
     printf("--- Jogo SUPER TRUNFO --- \n");
-    printf("--- Carta 2 ---\n")
+    printf("--- Carta 2 ---\n");
     printf("Dados da cidade\n");
-    printf("Código da cidade:%i \n", ddd2);
+    printf("Código da cidade:%d \n", ddd2);
     printf("Nome:%s \n", nome2);
-    printf("População:%i \n", populacao2);
+    printf("População:%d \n", populacao2);
     printf("Área:%f \n", area2);
     printf("PIB:%f \n", pib2);
     printf("Número de pontos turísticos:%d \n", turismo2);
