@@ -4,11 +4,15 @@
     int ddd, populacao, turismo;
     char nome[20];
     float area, pib;
+    float densidade;
+    float percapita;
 
     // Variaveis Carta 2
     int ddd2, populacao2, turismo2;
     char nome2[20];
     float area2, pib2;
+    float densidade2;
+    float percapita2;
 
 void dadoscarta1(){ //Carta 1
 
@@ -61,6 +65,10 @@ int main() {
     printf("Área:%f \n", area);
     printf("PIB:%f \n", pib);
     printf("Número de pontos turísticos:%d \n", turismo);
+    densidade = (populacao / area);
+    printf("A densidade populacional é de: %.2f \n", densidade);
+    percapita = (pib / populacao);
+    printf("PIB Percapita: %.2f \n", percapita);
 
     // Saida de dados Carta 2
     printf("--- Jogo SUPER TRUNFO --- \n");
@@ -69,9 +77,15 @@ int main() {
     printf("Código da cidade:%d \n", ddd2);
     printf("Nome:%s \n", nome2);
     printf("População:%d \n", populacao2);
-    printf("Área:%f \n", area2);
+    printf("Área:%f \n", area2); 
     printf("PIB:%f \n", pib2);
     printf("Número de pontos turísticos:%d \n", turismo2);
+    densidade2 = (populacao2 / area2);
+    printf("A densidade populacional é de: %.2f \n", densidade2);
+    percapita2 = (pib2 / populacao2);
+    printf("PIB Percapita: %.2f \n", percapita2);
+
+
 
     return 0;
 }
