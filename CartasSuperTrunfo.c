@@ -85,7 +85,21 @@ int main() {
     percapita2 = (pib2 / populacao2);
     printf("PIB Percapita: %.2f \n", percapita2);
 
+    int pontos1 = 0, pontos2 = 0;
 
+    if(populacao > populacao2) pontos1++; else if(populacao < populacao2) pontos2++;
+    if(area > area2) pontos1++; else if(area < area2) pontos2++;
+    if(pib > pib2) pontos1++; else if(pib < pib2) pontos2++;
+    if(turismo > turismo2) pontos1++; else if(turismo < turismo2) pontos2++;
+    if(densidade > densidade2) pontos1++; else if(densidade < densidade2) pontos2++;
+    if(percapita > percapita2) pontos1++; else if(percapita < percapita2) pontos2++;
+
+    if (pontos1 > pontos2)
+        printf("--- Carta 1 VENCEU! ---\n");
+    else if (pontos2 > pontos1)
+        printf("--- Carta 2 VENCEU! ---\n");
+    else
+        printf("--- EMPATE! ---\n");
 
     return 0;
 }
